@@ -14,6 +14,8 @@ Once your API key is validated, you can use the static function get_weather of t
 ```
 <hr>
 
+### Examples
+
 ```c+++
 std::vector<owm::request_strings> request_params = {owm::request_strings::weather, 
                                                     owm::request_strings::celcius, 
