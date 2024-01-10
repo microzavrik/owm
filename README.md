@@ -1,5 +1,6 @@
 ![Image alt](https://github.com/sxaxq/owm/raw/master/images/OpenWeather.png)
 <hr>
+
 ## Using OWM (OpenWeatherMap) API in C++
 To start using the OWM (OpenWeatherMap) API in your C++ application, you can utilize the owm library that provides a convenient way to access weather data.
 
@@ -11,6 +12,7 @@ owm::token my_token("YOUR_API_KEY");
 Obtaining Weather Information
 Once your API key is validated, you can use the static function get_weather of the owm::weather class to retrieve weather data for a specific city, along with the required parameters.
 ```
+<hr>
 
 ```c+++
 std::vector<owm::request_strings> request_params = {owm::request_strings::weather, 
