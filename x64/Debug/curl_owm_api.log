@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\sxaxq\source\repos\curl_owm_api\curl_owm_api\main.cpp(58): warning C4715: owm::token::CheckValidKey: значение возвращается не при всех путях выполнения
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ curl_global_init в функции "public: struct owm::response_status __cdecl owm::token::CheckValidKey(void)" (?CheckValidKey@token@owm@@QEAA?AUresponse_status@2@XZ).
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ curl_easy_init в функции "public: struct owm::response_status __cdecl owm::token::CheckValidKey(void)" (?CheckValidKey@token@owm@@QEAA?AUresponse_status@2@XZ).
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ curl_easy_setopt в функции "public: struct owm::response_status __cdecl owm::token::CheckValidKey(void)" (?CheckValidKey@token@owm@@QEAA?AUresponse_status@2@XZ).
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ curl_easy_getinfo в функции "public: struct owm::response_status __cdecl owm::token::CheckValidKey(void)" (?CheckValidKey@token@owm@@QEAA?AUresponse_status@2@XZ).
+C:\curl\curl-8.5.0\builds\libcurl-vc-x86-release-static-ipv6-sspi-schannel\lib\libcurl_a.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\sxaxq\source\repos\curl_owm_api\x64\Debug\curl_owm_api.exe : fatal error LNK1120: неразрешенных внешних элементов: 4
