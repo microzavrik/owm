@@ -9,9 +9,10 @@ Before making requests to the OpenWeatherMap API, it is necessary to create an i
 
 ```c++
 owm::token my_token("YOUR_API_KEY");
+```
 Obtaining Weather Information
 Once your API key is validated, you can use the static function get_weather of the owm::weather class to retrieve weather data for a specific city, along with the required parameters.
-```
+
 <hr>
 
 ### Examples
