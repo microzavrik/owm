@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/sxaxq/owm/badge)](https://www.codefactor.io/repository/github/sxaxq/owm)
+
 ![Image alt](https://github.com/sxaxq/owm/raw/master/images/OpenWeather.png)
 <hr>
 
